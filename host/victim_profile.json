@@ -1,0 +1,34 @@
+{
+  "_note": "FICTIONAL DEMO PROFILE - replace every field with the presenter's chosen demo data before the event. The gps block is only a fallback: when the phone dashboard is open over HTTPS its real GPS overrides it.",
+  "full_name": "Jordan Q. Sample",
+  "date_of_birth": "2004-05-14",
+  "blood_type": "O positive",
+  "medical_conditions": [
+    "Type 1 diabetes"
+  ],
+  "allergies": [
+    "Penicillin"
+  ],
+  "medications": [
+    "Insulin"
+  ],
+  "emergency_contacts": [
+    {
+      "name": "Casey Sample",
+      "relation": "parent",
+      "phone": "+1 575 555 0142"
+    }
+  ],
+  "vehicle": {
+    "make": "Demo RC Vehicle",
+    "model": "MYOSA CrashGuard test platform",
+    "color": "red",
+    "plate": "DEMO-01"
+  },
+  "gps": {
+    "lat": 32.2809,
+    "lon": -106.7469,
+    "nearest_address": "1780 East University Avenue, Las Cruces, New Mexico"
+  },
+  "notes": "Occupant profile preloaded by the user during CrashGuard setup."
+}

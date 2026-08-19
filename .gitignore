@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------
+# Secrets. Never commit these.
+# host/.env holds the live Twilio auth token, the Anthropic API key,
+# and the SMTP password.
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Runtime state written by the call server
+.last_location.json
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.nav
+*.snm
+
+# Local-only working directory, not published with the code
+paper/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large media (keep the repo under GitHub limits)
+*.MOV
+CrashGuardTest.mp4
+
+# Local helper script, not part of the project
+push-crashguard.bat
+rewrite-history.bat
