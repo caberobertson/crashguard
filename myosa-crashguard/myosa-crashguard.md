@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-08-19T00:00:00Z
+publishDate: 2026-08-26T00:00:00Z
 title: Robust Vehicle Safety and Alert System Using AI - MYOSA CrashGuard
 excerpt: An OnStar-style guardian built on the MYOSA Mini kit. It detects a collision on its own, gives the occupant ten seconds to cancel from a live phone dashboard, then places an AI phone call that reports who and where the victim is and answers the dispatcher's questions.
 image: myosa-crashguard/crashguard-cover.jpg
@@ -69,7 +69,7 @@ The MYOSA board becomes the brain of an in-vehicle guardian. It watches the acce
 
 <p align="center">
   <img src="/assets/images/myosa-crashguard/crashguard-team.jpg" width="800"><br/>
-  <i>The CrashGuard team at the Klipsch School of Electrical and Computer Engineering, NMSU</i>
+  <i>The CrashGuard team at the Klipsch School of Electrical and Computer Engineering, New Mexico State University</i>
 </p>
 
 ### Videos
@@ -170,7 +170,7 @@ Text delivery is verified rather than assumed: a queued message is not a deliver
 
 ## Usage Instructions
 
-Full setup, calibration, and demonstration instructions ship in `TUTORIAL.md` in the [project repository](https://github.com/caberobertson/crashguard). The short version follows.
+Full setup, calibration, and demonstration instructions ship in `TUTORIAL.md` in the [project repository](https://github.com/caberobertson/CrashGuard). The short version follows.
 
 **1. Flash the board.** Open the sketch in the Arduino IDE with the ESP32 core and the official MYOSA libraries installed, adjust `config.h` if your wiring differs, and upload. Hold the board still through the boot calibration, which learns the gravity vector.
 
@@ -250,15 +250,7 @@ You will also need a Twilio account with a voice-capable number, an Anthropic AP
 ## File Structure
 
 ```
-/crashguard
-  ├─ myosa-crashguard/
-  │   ├─ myosa-crashguard.md
-  │   ├─ crashguard-cover.jpg
-  │   ├─ crashguard-architecture.png
-  │   ├─ crashguard-dashboard.png
-  │   ├─ crashguard-board.jpg
-  │   ├─ crashguard-team.jpg
-  │   └─ crashguard-demo.mp4
+/myosa-crashguard
   ├─ firmware/
   │   └─ crashguard/
   │       ├─ crashguard.ino
@@ -273,13 +265,14 @@ You will also need a Twilio account with a voice-capable number, an Anthropic AP
   │   ├─ simulate_crash.py
   │   ├─ console_dispatcher_test.py
   │   ├─ test_offline.py
-  │   ├─ check_env.py
   │   ├─ victim_profile.json
-  │   ├─ requirements.txt
-  │   └─ .env.example
+  │   └─ requirements.txt
+  ├─ crashguard-cover.jpg
+  ├─ crashguard-architecture.png
+  ├─ crashguard-dashboard.png
+  ├─ crashguard-demo.mp4
   ├─ TUTORIAL.md
-  ├─ README.md
-  └─ .gitignore
+  └─ myosa-crashguard.md
 ```
 
 ---
