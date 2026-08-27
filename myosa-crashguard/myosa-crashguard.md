@@ -50,27 +50,27 @@ The MYOSA board becomes the brain of an in-vehicle guardian. It watches the acce
 *Image paths follow the MYOSA blog asset convention (`/assets/images/myosa-crashguard/`). All image files are present in this folder alongside this Markdown file.*
 
 <p align="center">
-  <img src="/assets/images/myosa-crashguard/crashguard-cover.jpg" width="800"><br/>
+  <img src="crashguard-cover.jpg" width="800"><br/>
   <i>The MYOSA board and accelerometer module mounted on the RC demonstration vehicle</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/myosa-crashguard/crashguard-architecture.png" width="800"><br/>
+  <img src="crashguard-architecture.png" width="800"><br/>
   <i>End-to-end architecture: MYOSA board to BLE bridge to call server and Claude to Twilio to the dispatcher. The dashed path is the Wi-Fi fallback, which removes the bridge entirely.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/myosa-crashguard/crashguard-dashboard.png" width="400"><br/>
+  <img src="crashguard-dashboard.png" width="400"><br/>
   <i>The phone dashboard during the cancel countdown, showing live impact force and the CANCEL control</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/myosa-crashguard/crashguard-board.jpg" width="800"><br/>
+  <img src="crashguard-board.jpg" width="800"><br/>
   <i>The MYOSA motherboard, accelerometer module, and buzzer as mounted for the demonstration</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/myosa-crashguard/crashguard-team.jpg" width="800"><br/>
+  <img src="crashguard-team.jpg" width="800"><br/>
   <i>The CrashGuard team at the Klipsch School of Electrical and Computer Engineering, New Mexico State University</i>
 </p>
 
