@@ -69,11 +69,6 @@ The MYOSA board becomes the brain of an in-vehicle guardian. It watches the acce
   <i>The MYOSA motherboard, accelerometer module, and buzzer as mounted for the demonstration</i>
 </p>
 
-<p align="center">
-  <img src="crashguard-team.jpg" width="800"><br/>
-  <i>The CrashGuard team at the Klipsch School of Electrical and Computer Engineering, New Mexico State University</i>
-</p>
-
 ### Videos
 
 <video controls width="100%">
