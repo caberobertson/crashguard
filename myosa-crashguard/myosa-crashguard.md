@@ -47,6 +47,8 @@ The MYOSA board becomes the brain of an in-vehicle guardian. It watches the acce
 
 ### Images
 
+*Image paths follow the MYOSA blog asset convention (`/assets/images/myosa-crashguard/`). All image files are present in this folder alongside this Markdown file.*
+
 <p align="center">
   <img src="/assets/images/myosa-crashguard/crashguard-cover.jpg" width="800"><br/>
   <i>The MYOSA board and accelerometer module mounted on the RC demonstration vehicle</i>
@@ -77,6 +79,9 @@ The MYOSA board becomes the brain of an in-vehicle guardian. It watches the acce
 <video controls width="100%">
   <source src="/crashguard-demo.mp4" type="video/mp4">
 </video>
+
+*The demonstration video is included in this folder as a local MP4 file:
+[crashguard-demo.mp4](crashguard-demo.mp4). No external or YouTube links are used.*
 
 ---
 
